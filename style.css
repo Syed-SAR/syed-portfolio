@@ -1,44 +1,53 @@
-
-html{
-    border: 2px solid black;
-    
+body{
+    font-family: sans-serif;
 }
 
-
-
-.body-website{
-    margin-left: 1rem;
-        
+nav{
+    color: black;
 }
 
-
-.my-image{
-    width: 300px;
-    height: 200px;
-    padding: 10px;
-  
-    
-}
-
-.details {
-    position: relative;
-    margin-left: 1rem;
-}
-
-img {
-    float: right;
-}
-
-.list-item > ul{
+header{
+    background-color: black;
     
     display: flex;
-    list-style: none;
-    gap: 20px
-     
-    ;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid red; 
 }
 
-footer{
-    background-color: black;
+li{
+    list-style: none;
     color: white;
+   
 }
+
+header ul{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around;
+    padding: 0.75rem ;
+    
+}
+
+header ul li{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+#logo a {
+    font-size: 52px;
+    text-decoration: none;
+     margin: 0;
+    color:white;
+    text-transform: uppercase ;
+    text-shadow: 2px 2px 2px rgb(244,244,244);
+    padding: 0.75rem;
+    
+}
+
+#logo a:hover, li:hover {
+    color: silver;
+}
+
+
+

@@ -1,0 +1,84 @@
+
+body {
+	background-color: black;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell,
+		'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.text-slider-items {
+	display: none;
+}
+
+.heading {
+	margin-top: 100px;
+	text-align: center;
+    border: 2px solid silver;
+}
+
+.heading h1 {
+	color: yellow;
+	font-size: 4rem;
+}
+
+.heading h2 {
+	color: gold;
+	font-size: 1.5rem;
+}
+
+#summary{
+    margin-top: 5rem;
+    
+}
+
+#summary h2{
+    color: gold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#summary img{
+    height: 18rem;
+    width: 18rem;
+    object-fit: cover; 
+    margin: 0 3rem;
+    float: left;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#summary p {
+    color: white;
+    font-size: 2rem;
+    
+}
+
+#Skills{
+    background-color:black;
+    color: white;
+    margin-top: 5rem;
+}
+
+#Skills h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#Skills h3{
+    color: white;
+}
+
+.parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
